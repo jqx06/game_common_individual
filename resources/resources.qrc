@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>asset/cave_background.png</file>
+        <file>asset/character_background.png</file>
+        <file>asset/city_background.png</file>
+        <file>asset/forest_background.png</file>
+        <file>asset/init_background.png</file>
+        <file>asset/town_background.png</file>
+        <file>asset/village_background.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>audio/cave_background.mp3</file>
+        <file>audio/character_background.mp3</file>
+        <file>audio/city_background.mp3</file>
+        <file>audio/forest_background.mp3</file>
+        <file>audio/init_background.mp3</file>
+        <file>audio/town_background.mp3</file>
+        <file>audio/village_background.mp3</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>travel</class>
+ <widget class="QDialog" name="travel">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>400</width><height>420</height></rect>
+  </property>
+  <property name="windowTitle"><string>选择目的地</string></property>
+  <property name="styleSheet"><string notr="true">background-color: #1a1a2e;</string></property>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry"><rect><x>0</x><y>15</y><width>400</width><height>40</height></rect></property>
+   <property name="font"><font><family>楷体</family><pointsize>18</pointsize><weight>75</weight></font></property>
+   <property name="styleSheet"><string>color: #e0d5c1; background: transparent;</string></property>
+   <property name="text"><string>—— 选择目的地 ——</string></property>
+   <property name="alignment"><set>Qt::AlignCenter</set></property>
+  </widget>
+  <widget class="QPushButton" name="button_village">
+   <property name="geometry"><rect><x>50</x><y>65</y><width>300</width><height>48</height></rect></property>
+   <property name="styleSheet"><string notr="true">QPushButton {
+    background-color: #5a8a5c; color: #ffffff;
+    font-family: 楷体; font-size: 18px; font-weight: bold;
+    border: 3px solid #3a6a3c; border-radius: 6px; padding: 8px;
+}
+QPushButton:hover { background-color: #6a9a6c; }
+QPushButton:pressed { background-color: #3a6a3c; }</string></property>
+   <property name="text"><string>🏘️  桃源村</string></property>
+  </widget>
+  <widget class="QPushButton" name="button_forest">
+   <property name="geometry"><rect><x>50</x><y>125</y><width>300</width><height>48</height></rect></property>
+   <property name="styleSheet"><string notr="true">QPushButton {
+    background-color: #3a6a3c; color: #ffffff;
+    font-family: 楷体; font-size: 18px; font-weight: bold;
+    border: 3px solid #2a4a2c; border-radius: 6px; padding: 8px;
+}
+QPushButton:hover { background-color: #4a7a4c; }
+QPushButton:pressed { background-color: #2a4a2c; }</string></property>
+   <property name="text"><string>🌲  幽暗密林</string></property>
+  </widget>
+  <widget class="QPushButton" name="button_cave">
+   <property name="geometry"><rect><x>50</x><y>185</y><width>300</width><height>48</height></rect></property>
+   <property name="styleSheet"><string notr="true">QPushButton {
+    background-color: #5a4a3c; color: #ffffff;
+    font-family: 楷体; font-size: 18px; font-weight: bold;
+    border: 3px solid #3a2a1c; border-radius: 6px; padding: 8px;
+}
+QPushButton:hover { background-color: #6a5a4c; }
+QPushButton:pressed { background-color: #3a2a1c; }</string></property>
+   <property name="text"><string>🕳️  黑风洞</string></property>
+  </widget>
+  <widget class="QPushButton" name="button_town">
+   <property name="geometry"><rect><x>50</x><y>245</y><width>300</width><height>48</height></rect></property>
+   <property name="styleSheet"><string notr="true">QPushButton {
+    background-color: #5a6a8c; color: #ffffff;
+    font-family: 楷体; font-size: 18px; font-weight: bold;
+    border: 3px solid #3a4a6c; border-radius: 6px; padding: 8px;
+}
+QPushButton:hover { background-color: #6a7a9c; }
+QPushButton:pressed { background-color: #3a4a6c; }</string></property>
+   <property name="text"><string>🏘️  青石镇</string></property>
+  </widget>
+  <widget class="QPushButton" name="button_city">
+   <property name="geometry"><rect><x>50</x><y>305</y><width>300</width><height>48</height></rect></property>
+   <property name="styleSheet"><string notr="true">QPushButton {
+    background-color: #6a5a5c; color: #ffffff;
+    font-family: 楷体; font-size: 18px; font-weight: bold;
+    border: 3px solid #4a3a3c; border-radius: 6px; padding: 8px;
+}
+QPushButton:hover { background-color: #7a6a6c; }
+QPushButton:pressed { background-color: #4a3a3c; }</string></property>
+   <property name="text"><string>🏰  玄铁城</string></property>
+  </widget>
+  <widget class="QPushButton" name="button_cancel">
+   <property name="geometry"><rect><x>50</x><y>365</y><width>300</width><height>40</height></rect></property>
+   <property name="styleSheet"><string notr="true">QPushButton {
+    background-color: #3a3a4a; color: #aaaaaa;
+    font-family: 楷体; font-size: 16px;
+    border: 2px solid #2a2a3a; border-radius: 6px; padding: 6px;
+}
+QPushButton:hover { background-color: #4a4a5a; color: #ffffff; }</string></property>
+   <property name="text"><string>取消</string></property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
